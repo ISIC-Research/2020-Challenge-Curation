@@ -10,7 +10,7 @@ Each image in this dataset is attributed to one patient who of which is associat
 
 ## Image Selector
 
-
+It is regular practice in some clinics to take multiple images per lesion using various dermoscopy types. We developed a tool to display all images that meet certain characteristics in a UI where a user then selects any number of those which are displayed. We used this to display all images of a certain lesion from a certain timepoint, and asked medical research fellows to select the image or images which were taken using contact dermoscopy. The application is available at [https://github.com/ISIC-Research/lesionimagepicker](https://github.com/ISIC-Research/lesionimagepicker).
 
 ## Tagger
 
