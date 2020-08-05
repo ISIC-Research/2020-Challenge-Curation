@@ -1,6 +1,6 @@
 # 2020 Challenge Dataset Curation Tools
 
-This repository provides the scripts written for use in preparing the multicenter contextual dermoscopic image database for the SIIM-ISIC Melanoma Classification competition. The competition was hosted on Kaggle during the Summer of 2020 https://www.kaggle.com/c/siim-isic-melanoma-classification). The dataset is available for download at the DOI https://doi.org/10.34970/2020-ds01.
+This repository provides the scripts written and pointers to the applications developed for use in preparing the multicenter contextual dermoscopic image database for the SIIM-ISIC Melanoma Classification competition. The competition was hosted on Kaggle during the Summer of 2020 https://www.kaggle.com/c/siim-isic-melanoma-classification). The dataset is available for download at the DOI https://doi.org/10.34970/2020-ds01.
 
 ## Standardize Identification Metadata
 
