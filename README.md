@@ -10,7 +10,11 @@ Each image in this dataset is attributed to one patient who of which is associat
 
 ## Image Selector
 
+
+
 ## Tagger
+
+An image organization application for semantic-level annotations was developed to QA diagnosis labels and to rule out those which failed to meet image quality standards. The application code is provided through [https://github.com/dgutman/webix_image_organizer](https://github.com/dgutman/webix_image_organizer). It uses the Webix Toolkit to interact with a Girder server, and the organization method and feature annotation list is configurable and not limited to the specific uses in preparing this dataset. 
 
 ## Timepoint Selection
 
@@ -18,7 +22,7 @@ Every lesion in the dataset is represented by just a single image. Generally, al
 
 [SelectLesionTimepoint_200423.R](https://github.com/ISIC-Research/2020-Challenge-Curation/blob/master/SelectLesionTimepoint_200423.R) reads a csv containing all potential images for the dataset and each of their associated patient IDs and lesion IDs, and produces a table of choice images according to a list of conditions.
 1. There is exactly one image per lesion.
-2. Each patient must have at least three associated lesions.
+2. Each patient must meet a minimum number of associated lesions.
 3. Biopsied lesions are represented by that nearest preceding imaging date to the biopsy.
 4. Non-biopsied lesion images in the **melanoma class** of patients are selected to minimize the time difference between the benign and malignant imaging date.
 5. Non-biopsied lesion images in the **benign class** of patients are selected to reflect the within-patient imaging date variation of the **melanoma class**.
