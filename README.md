@@ -8,6 +8,10 @@ Each image in this dataset is attributed to one patient who of which is associat
 
 [2020 Challenge assign Id_200408.py](https://github.com/ISIC-Research/2020-Challenge-Curation/blob/master/2020%20Challenge%20assign%20Id_200408.py) reads a csv containing filenames associated with pre-existing lesion IDs and patient IDs, and outputs 3 mapping tables (patient, lesion, and image) between original identification codes and a standardized format absent of PHI. Additional items can be added to the dataset without redundancy or double coding by specifying the existence of any of the three output tables. Duplicate patients, lesions, and images already present in the existing mapping tables are not assigned extra identification codes.
 
+## Image Selector
+
+## Tagger
+
 ## Timepoint Selection
 
 Every lesion in the dataset is represented by just a single image. Generally, all of a patient's lesions were not photographed on a single visit. Thus, some of the within patient variability is attributed to environmental lighting conditions and the evolution of dermoscopic imaging technology. Imaging timpoints were carefully selected in order to minimize bias between patient charts containing a melanoma and patient charts which do not contain a melanoma.
